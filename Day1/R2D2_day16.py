@@ -61,7 +61,7 @@ def image_qr_callback(data):
     for barcode in barcodes:
         qr = barcode.data.decode("utf-8")
 
-#line
+#line follow
 def image_line_callback(data):
     cv_image = bridge.imgmsg_to_cv2(data, 'bgr8')  # OpenCV image
     img_hsv = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
