@@ -111,7 +111,8 @@ R2D2
     yt = float(qr[1])
 ***
 ### Выполнен пролёт к началу трубопровода/к полученным из QR-кода координатам
-    navigate_wait(x=xt, y=yt)
+    navigate_wait(x = xt, y = yt, z = 0.8)
+    rospy.sleep(3)
 ***
 ### Написана функция ждя пролёта вдеоль трубопровода и его мониторинга
 
@@ -156,3 +157,7 @@ R2D2
               error = x_min - center 
 
               set_velocity(vx=0.25, vy=error*(-0.01), vz=0, yaw=float('nan'), yaw_rate=angle*(0.008), frame_id='body')
+              
+### Сделан перелёт к точке Старта и посадка на платформу Старта
+       navigate_wait(x = xl, y = yl, z = 1.2)
+       land_wait()
