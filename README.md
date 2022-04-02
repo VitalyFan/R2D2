@@ -1,15 +1,20 @@
-<img src="https://user-images.githubusercontent.com/78021829/161344574-5dc686ea-2ddc-4de9-9993-dc56033b7e37.jpeg" width="500" />
-
 
 R2D2 
 ===========
 
+
+
 ### Состав команды:
+
 - Фан Ин Су (Виталий) - Инженер-программист (Специалист по компьютерному зрению)(Python)
+<img src="https://user-images.githubusercontent.com/78021829/161373879-9b8be524-b0d1-4174-970b-c2561c8852f0.jpg" width="200" />
 
 - Кияновский Даниил - Инженер-программист (Python)
+<img src="https://user-images.githubusercontent.com/78021829/161373986-e76295b9-93a4-48f6-a650-f78062f9c085.jpg" width="200" />
 
 - Громова Анастасия - Инженер-техник
+<img src="https://user-images.githubusercontent.com/78021829/161374019-761c2b24-1140-487f-9302-e5cff962c7c1.PNG" width="200" />
+
 
 ---
 ## Задача День 1-2 [Код](https://github.com/VitalyFan/R2D2/blob/main/Day1/R2D2_day16.py)
